@@ -9,10 +9,12 @@ Repository that contains cybersecurity related; notes and progress.
 ## Progress log
 | Date | What I did |
 |------|------------|
-| 6 Nov 2026 | Started TryHackMe - working on HTTP in Detail, repo created |
+| 6 Nov 2026 | Started TryHackMe, repo created |
+| 7-12 Nov 2026 | Completed 7 rooms in the Cyber Security 101 path: Offensive Security Intro, Defensive Security Intro, Linux Fundamentals (Pt1), Search Skills, HTTP in Detail, DNS in Detail, OWASP Top 10 2025: IAAA Failures |
+| 12 Nov 2026 | Pushed HTTP in Detail notes |
 
 ## Notes
-- Notes will be added here as I complete each topic.
+- [View HTTP in Detail notes](notes/http-in-detail.md)
 
 ## Tools
 - TryHackMe
