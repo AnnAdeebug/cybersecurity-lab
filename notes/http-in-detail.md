@@ -86,37 +86,45 @@ common code:
 ## Task 7: Making Request
 Lab test in the server - using emulator to make demo HTTP requests
 
-1. 	method: GET request to /room page 
-	result: 200 OK
-		Welcome to the Room page
-2.	method: GET request to /blog page set id parameter = 1
-	result: 200 OK
-		Viewing Blog article 1 
-3.	method: DELETE request to /user/1 page
-	result: 200 OK
-		The user has been deleted
+1. method: GET request to /room page 
+- result: 200 OK
+- Welcome to the Room page
+
+2. method: GET request to /blog page set id parameter = 1
+- result: 200 OK
+- Viewing Blog article 1 
+
+3. method: DELETE request to /user/1 page
+- result: 200 OK
+- The user has been deleted
+
 4.	method: PUT request to /user/2 page set username parameter admin
-	result: 200 OK
-		Username changed to admin
+- result: 200 OK
+- Username changed to admin
+
 5.	method: POST request to /login page set username thm and a sample password 
-	result: 200 OK
-		You logged in! Welcome Back
+- result: 200 OK
+- You logged in! Welcome Back
 
 additional, not in instruction requests:
 6.	method: GET request to /home page 
-	result: 404 Not Found
-		cannot find page
+- result: 404 Not Found
+- cannot find page
+
 7.	method: GET request to /blog page set id parameter = 99
-	result: 404 Not Found
-		invalid blog id 
+- result: 404 Not Found
+- invalid blog id 
+
 8.	method: DELETE request to /user/2 page
-	result: 404 Not Found
-		cannot find page
+- result: 404 Not Found
+- cannot find page
+
 9.	method: PUT request to /user/2 page without set username parameter admin
-	result: 400 Bad Request
-		Missing parameter
+- result: 400 Bad Request
+- Missing parameter
+
 10.	method: POST request to /login page without username and password
-	result: 400 Bad Request
-		Missing post parameter
+- result: 400 Bad Request
+- Missing post parameter
 
 Learned: the same endpoint can return 200, 404 or 400 depending on the input. This is what I have tested in API testing
